@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header,
+footer {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.tomato,
+.teal,
+.burlywood,
+.thistle {
+    background-color: white;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.tomato .top,
+.teal .top,
+.burlywood .top,
+.thistle .top {
+    width: 190px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tomato .bottom,
+.teal .bottom,
+.burlywood .bottom,
+.thistle .bottom {
+    width: 190px;
+    height: 200px;
+}
+
+.tomato .text,
+.teal span,
+.burlywood .text,
+.thistle .text {
+    width: 185px;
+    text-align: left;
+}
+
+.tomato .top,
+.tomato .bottom {
+    background-color: #FF6347;
+}
+
+.teal .top,
+.teal .bottom {
+    background-color: #008080;
+}
+
+.burlywood .top,
+.burlywood .bottom {
+    background-color: #DEB887;
+}
+
+.thistle .top,
+.thistle .bottom {
+    background-color: #D7BFD7;
+}
