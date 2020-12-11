@@ -1,12 +1,12 @@
 body {
     width: 475px;
     height: 100%;
-    background-color: #FFFFFF;
-    border: 4px solid #00C6AC;
+    background-color: #ffffff;
+    border: 4px solid #00c6ac;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 header {
@@ -35,13 +35,13 @@ main {
 main .image {
     width: 150px;
     height: 150px;
-    background-color: #FFBC12;
+    background-color: #ffbc12;
     border: 3px solid black;
     border-radius: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 main .image i {
@@ -164,13 +164,13 @@ nav .nav__plus {
 }
 
 .content__att .box {
-    background-color: #FF89BB;
+    background-color: #ff89bb;
 }
 
 .content__try .box {
-    background-color: #1A47E4;
+    background-color: #1a47e4;
 }
 
 .content__sun .box {
-    background-color: #00C6AC;
+    background-color: #00c6ac;
 }

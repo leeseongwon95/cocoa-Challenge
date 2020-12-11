@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
 }
 
 h1 {
@@ -63,7 +63,7 @@ footer {
 
 .tomato .top,
 .tomato .bottom {
-    background-color: #FF6347;
+    background-color: #ff6347;
 }
 
 .teal .top,
@@ -73,10 +73,10 @@ footer {
 
 .burlywood .top,
 .burlywood .bottom {
-    background-color: #DEB887;
+    background-color: #deb887;
 }
 
 .thistle .top,
 .thistle .bottom {
-    background-color: #D7BFD7;
+    background-color: #d7bfd7;
 }

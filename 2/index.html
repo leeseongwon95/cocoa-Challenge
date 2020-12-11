@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>repl.it</title>
+        <style>
+            body {
+                width: 100%;
+                height: 100vh;
+                background-color: #ff6446;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <style>
-        body {
-            width: 100%;
-            height: 100vh;
-            background-color: #FF6446;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+            .box {
+                width: 300px;
+                height: 300px;
+                background-color: #f5deb3;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: 3px solid black;
+            }
 
-        .box {
-            width: 300px;
-            height: 300px;
-            background-color: #F5DEB3;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border: 3px solid black;
-        }
+            .box div:first-child,
+            .box div:last-child {
+                width: 60px;
+                height: 60px;
+                background-color: #008080;
+                border: 3px solid white;
+            }
 
-        .box div:first-child,
-        .box div:last-child {
-            width: 60px;
-            height: 60px;
-            background-color: #008080;
-            border: 3px solid white;
-        }
+            .box div:nth-child(2) {
+                margin: 20px 0px;
+                width: 250px;
+                height: 70px;
+                background-color: #008080;
+                border: 3px solid white;
+                border-style: dashed;
+            }
+        </style>
+    </head>
 
-        .box div:nth-child(2) {
-            margin: 20px 0px;
-            width: 250px;
-            height: 70px;
-            background-color: #008080;
-            border: 3px solid white;
-            border-style: dashed;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</body>
-
+    <body>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </body>
 </html>
